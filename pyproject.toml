@@ -1,0 +1,11 @@
+[project]
+name = "fast-api"
+version = "0.0.1"
+description = "API para gerenciamento de estoques e vendas"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.115.0",
+    "pydantic-settings>=2.5.2",
+    "sqlalchemy>=2.0.35",
+]
